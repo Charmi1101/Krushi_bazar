@@ -21,7 +21,7 @@
         <activity android:name=".Seller_Statistics_Activity" />
         <activity android:name=".Manage_Stock_Activity" />
         <activity android:name=".buyer_dashboard" />
-        <activity android:name=".Selller_Dashboard" />
+        <activity android:name=".Seller_Dashboard" />
         <activity android:name=".BuyerSearchActivity" />
         <activity android:name=".Dashboard" />
         <activity

@@ -45,7 +45,7 @@ public class Dashboard extends AppCompatActivity {
         button_seller.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Dashboard.this, Selller_Dashboard.class) );
+                startActivity(new Intent(Dashboard.this, Seller_Dashboard.class));
             }
         });
     }
@@ -83,7 +83,7 @@ public class Dashboard extends AppCompatActivity {
         switch (item.getItemId()) {
             case id.seller_menu_item:
                 Toast.makeText(this, "Seller Selected", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(this, Selller_Dashboard.class));
+                startActivity(new Intent(this, Seller_Dashboard.class));
                 break;
             case id.buyer_menu_item:
                 Toast.makeText(this, "Buyer Selected", Toast.LENGTH_SHORT).show();

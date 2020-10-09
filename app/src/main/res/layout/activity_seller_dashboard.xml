@@ -9,7 +9,7 @@
     android:backgroundTint="#40FFFFFF"
     android:backgroundTintMode="src_over"
     android:orientation="vertical"
-    tools:context=".Selller_Dashboard">
+    tools:context=".Seller_Dashboard">
 
 
     <TextView

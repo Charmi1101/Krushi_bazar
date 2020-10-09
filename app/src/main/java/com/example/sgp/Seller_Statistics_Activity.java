@@ -91,7 +91,7 @@ public class Seller_Statistics_Activity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.seller_menu_item:
                 Toast.makeText(this, "Seller Selected", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(this, Selller_Dashboard.class));
+                startActivity(new Intent(this, Seller_Dashboard.class));
                 break;
             case R.id.buyer_menu_item:
                 Toast.makeText(this, "Buyer Selected", Toast.LENGTH_SHORT).show();

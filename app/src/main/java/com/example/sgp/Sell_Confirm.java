@@ -93,7 +93,7 @@ public class Sell_Confirm extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Updating_RealtimeDatabase();
-                Intent intent = new Intent(Sell_Confirm.this, Selller_Dashboard.class);
+                Intent intent = new Intent(Sell_Confirm.this, Seller_Dashboard.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
                 Toast.makeText(Sell_Confirm.this, "Confirm selected", Toast.LENGTH_SHORT).show();
