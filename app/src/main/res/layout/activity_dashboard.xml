@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dash_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:backgroundTint="#0DFFFFFF"
+    android:backgroundTintMode="src_over"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+
+    <Button
+        android:id="@+id/btn_buyer"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rounding"
+        android:fontFamily="@font/coustard"
+        android:text="buyer"
+        android:textColor="#3A1106"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/btn_seller"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/rounding"
+        android:fontFamily="@font/coustard"
+        android:text="seller"
+        android:textColor="#3A1106"
+        android:textSize="60dp" />
+
+
+</LinearLayout>

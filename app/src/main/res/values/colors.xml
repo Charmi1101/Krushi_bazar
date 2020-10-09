@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E9164</color>
+    <color name="ButtonBackground">#854523</color>
+    <color name="colorTextBackground">#CEFFFAE8</color>
+    <color name="BuyerTextColour">#6A3316</color>
+    <color name="BuyerBackgroundColour">#BD970D</color>
+    <color name="Fontbkg">#151515</color>
+</resources>
